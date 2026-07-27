@@ -2,6 +2,9 @@
     --bg-color: #000;
     --txt1: #478800;
 }
+#base {
+    background-color: var(--bg-color);
+}
 #header {
     background-color: var(--bg-color);
 }
