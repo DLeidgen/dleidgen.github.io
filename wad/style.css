@@ -1,0 +1,35 @@
+:root {
+    --blk: #000;
+    --txt1: #478800;
+    --txt2: #880047;
+    --bg5: #b1a597;
+    --txtd: #e2e8e0;
+    --c1: #b1c6d7;
+    --bg1: #112659;
+    --bg2: #173377;
+    --bg3: #234db2;
+}
+body {
+
+    background-color: var(--bg1);
+}
+#header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    background-color: var(--bg1);
+}
+#header h1 {
+    color: var(--txtd);
+    font-size: 3rem;
+}
+#footer {
+    color: var(--txtd);
+}
+.card1 {
+    background-color: var(--bg5);
+}
+.card1 h2 {
+    color: var(--txtd);
+}
